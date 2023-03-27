@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-top: 51px;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    &__line {
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        margin: 52px 0 48px;
+    }
+
+    &__text {
+        padding-bottom: 43px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+
+        a {
+            border-bottom: 1px solid #fff;
+
+            &:hover {
+                border-color: $link-hover;
+            }
+        }
+    }
+}

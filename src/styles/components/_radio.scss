@@ -1,0 +1,40 @@
+.radio {
+    margin-bottom: 10px;
+
+    & input[type="radio"] {
+        display: none;
+    }
+
+    & label {
+        display: inline-block;
+        cursor: pointer;
+        position: relative;
+        padding-left: 30px;
+        -webkit-user-select: none;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #8b8b8b;
+        user-select: none;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            left: 0;
+            background: url(../../svg/label-before.svg) 0 0 no-repeat;
+        }
+    }
+
+    & input[type="radio"]:checked + label:before {
+        background: url(../../svg/label-checked-before.svg) 0 0 no-repeat;
+    }
+
+    & input[type="radio"]:checked + label {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+    }
+}

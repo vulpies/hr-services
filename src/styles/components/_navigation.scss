@@ -1,0 +1,15 @@
+.nav {
+    background-color: $main-yellow;
+    padding: 20px 0;
+
+    a {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 16px;
+
+        &:hover {
+            font-weight: 500;
+            color: #000;
+        }
+    }
+}

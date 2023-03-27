@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "./base/variables";
+@import "./base/fonts";
+@import "./base/common";
+
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/main";
+@import "./components/consultation";
+@import "./components/hotVacancies";
+@import "./components/lookingForJob";
+@import "./components/slider";
+@import "./components/accordion";
+@import "./components/radio";
+@import "./components/steps";
+@import "./components/subscribe";
+@import "./components/footer";

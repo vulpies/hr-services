@@ -1,0 +1,55 @@
+.steps {
+    padding: 58px 0 65px;
+
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 31px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+
+        div {
+            width: 370px;
+            height: 106px;
+            background: #f6fdff;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-left: 16px;
+            margin-bottom: 30px;
+
+            &:nth-child(3) {
+                p {
+                    width: 275px;
+                }
+            }
+
+            span {
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 40px;
+                color: $main-yellow;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+
+        button {
+            width: 370px;
+            height: 106px;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 17px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.hotVacancies {
+    background-color: $bckg-blue;
+    padding: 47px 0 79px;
+
+    &__title {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 31px;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 23.71px;
+    }
+
+    &__slider {
+        margin-top: 36px;
+        margin-bottom: 46px;
+    }
+
+    &__search {
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 16px 21px 26px;
+
+        h4 {
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 142%;
+        }
+
+        h5 {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 25.56px;
+            margin-bottom: 19px;
+        }
+
+        form {
+            input,
+            .form-select,
+            button {
+                width: 348px;
+            }
+        }
+    }
+}
